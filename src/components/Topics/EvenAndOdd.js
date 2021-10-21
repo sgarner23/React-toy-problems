@@ -7,7 +7,6 @@ const EvenAndOdd = () => {
   const [oddArray, setOddArray] = useState("Odds: []");
 
   function clickHandler(userInput) {
-    console.log(userInput);
     let evens = "";
     let odds = "";
     let splitUserInput = userInput.split(",");
