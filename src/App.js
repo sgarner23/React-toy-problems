@@ -1,10 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import TopicBrowser from "./components/TopicBrowser/TopicBrowser";
+import { useState } from "react";
 
-class App extends Component {
-  render() {
-    return <TopicBrowser />;
-  }
-}
+const App = () => {
+  return (
+    <div>
+      <TopicBrowser />
+    </div>
+  );
+};
 
 export default App;
