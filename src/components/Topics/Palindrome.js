@@ -16,9 +16,6 @@ const Palindrome = () => {
       reverseStr.push(userInput.toLowerCase().charAt(i));
     }
 
-    console.log(reverseStr.join(""));
-    console.log(userPhrase);
-
     if (reverseStr.join("") === userPhrase) {
       setResponseText(`Results: true`);
     } else {
